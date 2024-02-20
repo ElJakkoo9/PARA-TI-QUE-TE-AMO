@@ -322,6 +322,20 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('noBtn').innerHTML = 'TE QUIERO';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
             document.getElementById('messageContainer').style.display = 'block';
+            document.getElementById('messageContainer').innerHTML = 'QUE';
+
+            // Hacer que el botón "Sí" crezca
+            document.getElementById('siBtn').style.fontSize = '260px';
+            document.getElementById('siBtn').style.padding = '160px 260px';
+            
+            noButtonState++;
+            break;
+        
+        case 21:
+            
+            document.getElementById('noBtn').innerHTML = 'TE QUIERO';
+            document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('messageContainer').style.display = 'block';
             document.getElementById('messageContainer').innerHTML = 'NADA';
 
             // Hacer que el botón "Sí" crezca
@@ -331,8 +345,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             noButtonState++;
             break;
         
-        
-        case 21:
+        case 22:
            
             document.getElementById('noBtn').innerHTML = 'TE QUIERO';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
@@ -346,7 +359,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             noButtonState++;
             break;
             
-        case 22:
+        case 23:
            
             document.getElementById('noBtn').innerHTML = 'TE QUIERO';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
@@ -361,7 +374,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;    
         
 
-        case 23:
+        case 24:
            
             document.getElementById('noBtn').innerHTML = 'TE QUIERO';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
@@ -375,7 +388,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             noButtonState++;
             break;
             
-        case 24:
+        case 25:
            
             document.getElementById('noBtn').innerHTML = 'TE QUIERO';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
@@ -389,7 +402,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             noButtonState++;
             break; 
      
-        case 25:
+        case 26:
                 document.getElementById('noBtn').innerHTML = 'CORAZÓN';
                 document.getElementById('noBtn').style.backgroundColor = '#F1330A';
               
